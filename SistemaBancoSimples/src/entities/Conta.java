@@ -5,6 +5,12 @@ public class Conta {
    private Integer number;
    private String holder;
    protected Double balance;
+   /*
+   * Palavra Super
+   * É possivel chamar a implementação da superclasse usando a palavra super
+   *
+   * Vamos supor que na classe ContaDeNegócios a regra para saque seja realizar
+   * o saque normalmente da superclasse e descontar mais 2.0*/
 
    public Conta() {
    }

@@ -15,9 +15,11 @@ public class Program {
         System.out.println("Digite os dados do Títular da Conta: ");
         System.out.print("Digite o número do titular: ");
         c.setNumber(sc.nextInt());
+
         System.out.printf("Digite o nome do títular: ");
         sc.nextLine();
         c.setHolder(sc.nextLine());
+
         System.out.println(c);
         System.out.printf("Digite o valor do Saque: ");
         c.withdraw(sc.nextDouble());
