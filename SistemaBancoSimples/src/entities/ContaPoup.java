@@ -25,7 +25,11 @@ public class ContaPoup extends Conta{
     }
 
     @Override
+    public void deposit(double amount) {
+        balance += amount;
+    }
+    @Override
     public void withdraw(double amount) {
-        withdraw(amount);
+        balance -= amount;
     }
 }
